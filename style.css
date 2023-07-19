@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/90/2c/5d/902c5d260ca0de298a0a9b4f43a07fe3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 18px;
+    color: beige;
+    text-align: justify;
+}
+img{ 
+    width: 400px;
+border-radius: 10px;
+}
+.astrobiología{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+.formación{
+    width: 700px;
+    border-radius: 10px;
+    display: block;
+    margin:auto;
+}
+.title-astrobiología {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+}
+.title-universo {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+}
+.title-estrellas {
+    font-size: 90px;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+}
+.ul-astrobiología {
+    font-family: cursive;
+}
+.title-interespacio {
+    color: antiquewhite;
+    font-size: 90px;
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+}
+.imagen1 {
+    border-radius: 10px;
+    display: block;
+    margin:auto;  
+}
+.imagen2{
+    border-radius: 10px;
+    display: block;
+    margin:auto;    
+}
+
+/* 
+selector {
+    propiedad: valor ;
+} */
