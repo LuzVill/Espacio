@@ -1,12 +1,75 @@
 body{
-    background-image: url(https://i.pinimg.com/564x/90/2c/5d/902c5d260ca0de298a0a9b4f43a07fe3.jpg);
+    height: 400px;
+    background-color: #000000;
+    background-image: url(https://i.pinimg.com/originals/0e/b1/56/0eb15636563ecc2920056a5dd6e496c5.gif);
     background-size: cover;
+    background-size: 80rem;
     background-repeat: no-repeat;
-    font-family: 'Ysabeau Office', sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Tektur', cursive;
     font-size: 18px;
-    color: beige;
+    color: rgb(224, 224, 168);
     text-align: justify;
 }
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li{
+    background-color: #d85e4e;
+}
+
+#menu ul a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 4000px;
+    font-size: 15px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#menu ul li{
+    position: relative;
+    float:left;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li:hover{
+    background: #e69756;
+}
+
+#menu ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #eee;
+    padding: 0;
+}
+
+#menu ul ul li{
+    float: none;
+    width: 1500px;
+}
+
+#menu ul ul a{
+    line-height: 120%;
+    padding: 10px 15px;
+}
+
+#menu ul li:hover > ul{
+    display: block;
+}
+
 img{ 
     width: 400px;
 border-radius: 10px;
@@ -24,26 +87,29 @@ border-radius: 10px;
 }
 .title-astrobiología {
     font-size: 90px;
-    color: whitesmoke;
-    font-family:'Times New Roman', Times, serif;
+    color: rgb(216, 204, 43);
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Tektur', cursive;
 }
 .title-universo {
     font-size: 90px;
-    color: whitesmoke;
-    font-family:'Times New Roman', Times, serif;
+    color: rgb(216, 204, 43);
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Tektur', cursive;
 }
 .title-estrellas {
     font-size: 90px;
-    color: whitesmoke;
-    font-family:'Times New Roman', Times, serif;
+    color: rgb(216, 204, 43);
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Tektur', cursive;
 }
 .ul-astrobiología {
     font-family: cursive;
 }
 .title-interespacio {
-    color: antiquewhite;
+    color: rgb(230, 136, 13);
     font-size: 90px;
-    font-family: 'Caprasimo', cursive;
+    font-family: 'Tektur', cursive;
     text-align: center;
 }
 .imagen1 {
@@ -55,6 +121,11 @@ border-radius: 10px;
     border-radius: 10px;
     display: block;
     margin:auto;    
+}
+
+.anclas1 a{
+    text-decoration: none;
+    color: #e69327;
 }
 
 /* 
